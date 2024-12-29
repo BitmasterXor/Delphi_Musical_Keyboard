@@ -70,7 +70,7 @@ const
   );
 procedure TForm1.btnTestClick(Sender: TObject);
 begin
-  WinBeep(StrToIntDef(edtFreq.Text, 523), 100);
+  WinBeep(StrToIntDef(edtFreq.Text, 523), strtoint(edtTime.Text));
 end;
 procedure TForm1.Button1Click(Sender: TObject);
 begin
