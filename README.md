@@ -1,59 +1,76 @@
-🎹 Delphi Musical Keyboard
-<div align="center">
+# 🎹 Delphi Musical Keyboard
 
-🎵 A modern, minimalist virtual piano keyboard built with Delphi
+<div align="center">
+  
+![Preview](preview.png)
+
+A modern, minimalist virtual piano keyboard built with Delphi
+
 </div>
-✨ Features
 
-🎹 Virtual keyboard with 14 keys (C through C# in higher octave)
-🔊 Custom frequency input for experimental sounds
-⏱️ Adjustable duration for each note
-🔌 Native Windows sound integration
+## Features
 
-🚀 Quick Start
+* Interactive virtual keyboard with 14 keys spanning C to C#
+* Custom frequency input for sound experimentation
+* Adjustable note duration
+* Native Windows sound integration via WinBeep API
 
-Download the latest release
-Launch the application
-Start playing music! 🎵
+## Quick Start
 
-🛠️ Technical Details
+1. Download the latest release
+2. Launch the application
+3. Play music using your keyboard or mouse
 
-💻 Written in Delphi
-🔊 Uses WinBeep function from kernel32.dll
-🎵 Frequency range: 262 Hz (C) to 554 Hz (C# higher octave)
-⚙️ Configurable duration through UI
+## Technical Details
 
-🎼 Musical Note Frequencies
-NoteFrequency (Hz)C262C#277D294D#311E330F349F#370G392G#415A440A#466B494C523C#554
-📋 Requirements
+* Built with Delphi
+* Uses Windows Beep API (kernel32.dll)
+* Frequency range: 262 Hz - 554 Hz
+* Configurable note duration
 
-🪟 Windows operating system
-🔧 Delphi IDE for compilation
-🔊 Sound output device
+## Note Frequencies
 
-🔨 Building From Source
-bashCopy1. 📂 Clone the repository
-2. 🚀 Open the project in Delphi IDE
-3. 🛠️ Build the project
-4. ▶️ Run the application
-⚠️ Limitations
+| Note | Frequency (Hz) |
+|------|---------------|
+| C    | 262          |
+| C#   | 277          |
+| D    | 294          |
+| D#   | 311          |
+| E    | 330          |
+| F    | 349          |
+| F#   | 370          |
+| G    | 392          |
+| G#   | 415          |
+| A    | 440          |
+| A#   | 466          |
+| B    | 494          |
+| C    | 523          |
+| C#   | 554          |
 
-🔊 Basic beep sound quality
-🪟 Windows-only compatibility
-🎹 Limited to single octave plus two notes
+## Requirements
 
-📝 License
-Free to use and modify for your projects! 🎉
-🤝 Contributing
-Feel free to:
+* Windows operating system
+* Sound output device
+* Delphi IDE (for compilation)
 
-🐛 Report bugs
-💡 Suggest features
-🔀 Submit pull requests
+Limitations
 
-📞 Support
+Basic beep sound quality
+Windows-only compatibility
+Limited to single octave plus two notes
+
+Contributing
+Contributions are welcome:
+
+Report bugs
+Suggest features
+Submit pull requests
+
+Support
 Need help? Open an issue in the repository!
+License
+Free to use and modify for your projects.
 
 <div align="center">
-Made with ❤️ and Delphi
+Made with ❤️ using Delphi
 </div>
